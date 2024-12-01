@@ -3,7 +3,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import numpy as np
 
-sns.color_palette("Spectral", as_cmap=True)
+sns.color_palette("mako")
 
 # Import data
 df = pd.read_csv('medical_examination.csv')
