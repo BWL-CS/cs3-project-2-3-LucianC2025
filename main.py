@@ -7,7 +7,7 @@ import numpy as np
 
 # Import data
 df = pd.read_csv('medical_examination.csv')
-print(df.info)
+print(df.info())
 # - there are 70,000 patients in our data frame
 
 # Add 'BMI' column & Caluclate BMI 
@@ -59,8 +59,6 @@ def draw_cat_plot():
   # Do not modify the next two lines
   fig.savefig('catplot.png')
   return fig
-
-
 
 
 # Function to draw Heat Map
